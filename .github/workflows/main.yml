@@ -6,7 +6,7 @@ name: Production Deploy
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
-    runs-on: windows
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.3.2
       with:
